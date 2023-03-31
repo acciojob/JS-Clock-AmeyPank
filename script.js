@@ -19,5 +19,4 @@ function clock() {
     document.getElementById("minute").innerHTML = ":" + mins;
     document.getElementById("second").innerHTML = ":" + secs;
   }
-  
   setInterval(clock, 1000);
